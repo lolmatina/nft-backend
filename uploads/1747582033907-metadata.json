@@ -1,0 +1,16 @@
+{
+  "name": "ASDASDASDASDA",
+  "symbol": "ASDASDASDA",
+  "description": "asDASD",
+  "image": "http://localhost:5001/uploads/1747582033884-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-04-07_012411.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747582033884-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-04-07_012411.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

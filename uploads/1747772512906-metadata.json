@@ -1,0 +1,16 @@
+{
+  "name": "QAZAQ UI",
+  "symbol": "KZT",
+  "description": "",
+  "image": "http://localhost:5001/uploads/1747772512884-IMG_2240.JPG",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747772512884-IMG_2240.JPG",
+        "type": "image/jpeg"
+      }
+    ],
+    "category": "image"
+  }
+}

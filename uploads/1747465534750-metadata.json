@@ -1,0 +1,16 @@
+{
+  "name": "Test",
+  "symbol": "MANFT",
+  "description": "asdasd",
+  "image": "http://localhost:5001/uploads/1747465534678-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-04-01_145547.png",
+  "seller_fee_basis_points": 500,
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747465534678-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-04-01_145547.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

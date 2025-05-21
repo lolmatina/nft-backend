@@ -1,0 +1,16 @@
+{
+  "name": "Batyr",
+  "symbol": "KZT",
+  "description": "",
+  "image": "http://localhost:5001/uploads/1747772619552-IMG_2245.JPG",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747772619552-IMG_2245.JPG",
+        "type": "image/jpeg"
+      }
+    ],
+    "category": "image"
+  }
+}

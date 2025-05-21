@@ -1,0 +1,16 @@
+{
+  "name": "DIGITAL ART",
+  "symbol": "ART",
+  "description": "",
+  "image": "http://localhost:5001/uploads/1747771924489-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-05-02_212419.png",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747771924489-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-05-02_212419.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}

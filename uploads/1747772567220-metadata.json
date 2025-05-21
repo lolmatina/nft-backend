@@ -1,0 +1,16 @@
+{
+  "name": "Qaz Bored Ape",
+  "symbol": "KZT",
+  "description": "",
+  "image": "http://localhost:5001/uploads/1747772567187-IMG_2244.JPG",
+  "attributes": [],
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747772567187-IMG_2244.JPG",
+        "type": "image/jpeg"
+      }
+    ],
+    "category": "image"
+  }
+}

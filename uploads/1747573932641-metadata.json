@@ -1,0 +1,15 @@
+{
+  "name": "FINAL TEST",
+  "symbol": "MANFT",
+  "description": "",
+  "image": "http://localhost:5001/uploads/1747573932611-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-04-01_145547.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "http://localhost:5001/uploads/1747573932611-Ð¡Ð½Ð¸Ð¼Ð¾Ðº_ÑÐºÑÐ°Ð½Ð°_2025-04-01_145547.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image"
+  }
+}
