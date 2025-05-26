@@ -3,11 +3,28 @@ const { query } = require('../db');
 const { getNFTMetadata, verifyNFTOwner, getUmi } = require('../solana/solanaUtils'); 
 const authenticateToken = require('../middleware/authenticateToken'); 
 
-
+// Get ALL NFTS (listed)
 router.get('/', async (req, res) => {
   try {
     const { name: searchName } = req.query; 
-    let queryString = 'SELECT id, mint_address, name, image_url, price FROM nfts WHERE is_listed = TRUE';
+    let queryString = `
+      SELECT 
+        id, 
+        mint_address, 
+        name, 
+        image_url, 
+        price, 
+        is_listed,
+        owner_wallet_address,
+        updated_at
+      FROM nfts 
+      WHERE (
+        is_listed = TRUE 
+        OR (
+          is_listed = FALSE 
+          AND updated_at > NOW() - INTERVAL '7 days'
+        )
+      )`;
     const queryParams = [];
 
     if (searchName) {
@@ -15,7 +32,7 @@ router.get('/', async (req, res) => {
       queryParams.push(`%${searchName}%`); 
     }
 
-    queryString += ' ORDER BY created_at DESC';
+    queryString += ' ORDER BY is_listed DESC, updated_at DESC';
 
     
     
@@ -30,6 +47,7 @@ router.get('/', async (req, res) => {
 });
 
 
+// Get NFT by DB ID
 router.get('/:id', async (req, res) => {
   try {
     const { id } = req.params;
@@ -45,6 +63,7 @@ router.get('/:id', async (req, res) => {
 });
 
 
+// Get NFT by mint address
 router.get('/mint/:mintAddress', async (req, res) => {
   try {
     const { mintAddress } = req.params;
